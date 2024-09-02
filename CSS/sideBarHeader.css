@@ -1,0 +1,116 @@
+@import url(sobreMim.css);
+
+.image-perfil {
+
+    width: 109px;
+
+}
+
+.edit-img {
+
+    width: 2em;
+
+}
+
+.menu-icon {
+    width: 2px;
+    height: 2px;
+    /* background-color: #fff;  */
+    margin: 0 auto;
+}
+
+.container-sidebar {
+
+    position: relative;
+    /* right: 35em; */
+
+}
+
+.sidebar-menu {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar-menu li {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    color: #d8dee9;
+}
+
+.icon-container {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.menu-text {
+    display: flex;
+    font-family: "Nanum Myeongjo", serif;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    /* pointer-events: none; */
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer-text {
+    color: #d8dee9;
+}
+
+#lottie-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vw;
+    z-index: -1;
+    pointer-events: none;
+}
+
+.body-index {
+
+    background: url(https://lottie.host/embed/46a7a22c-6fa8-4675-86ef-d95e992b344c/ovdHr7rl89.json);
+
+}
+
+.section__telas {
+
+    display: none;
+
+}
+
+/* Header */
+header {
+    background-color: #3b4252;
+    height: 104px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+}
+
+header .profile-pic {
+    display: flex;
+    width: 115px;
+    height: 115px;
+    left: 45%;
+    border-radius: 50%;
+    background-color: rgb(216, 222, 233);
+    position: absolute;
+    top: 95%;
+    transform: translateY(-50%);
+    align-items: center;
+    justify-content: center;
+}
+
+html {
+
+    background: #e0e2e9;
+
+}

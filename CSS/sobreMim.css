@@ -1,0 +1,103 @@
+.container__divs_3elementos {
+
+    display: flex;
+    justify-content: space-around;
+    padding: 12em;
+
+}
+
+.container__divs_1elemento {
+
+    display: flex;
+    justify-content: space-around;
+    padding: 3em;
+
+}
+
+.divs_elementos {
+
+    background: rgba(161, 172, 136, 0.45);
+    border-radius: 1.5em;
+    border: solid 1px #464d70;
+    margin: 0 1em;
+    margin-top: 1em;
+    padding: 2em;
+    width: 20em;
+    height: 30em;
+    
+}
+
+.divs_elementos_unico {
+
+    display: flex;
+    background: rgba(161, 172, 136, 0.45);
+    border-radius: 1.5em;
+    border: solid 1px #464d70;
+    margin: 0 1em;
+    margin-top: 1em;
+    padding: 2em;
+    width: 50em;
+    height: 30em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.h1_divs {
+
+    text-align: center;
+
+}
+
+.container__linkedin {
+
+    margin-top: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.duplo__container {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container__campo {
+
+    display: flex;
+    margin: 3em;
+}
+
+.span-text {
+
+    padding: 1em;
+    border: solid 1px;
+    border-radius: 1em 0em 0em 1em;
+    background: #757575;
+    font-family: "Nanum Myeongjo", serif;
+    font-weight: 700;
+    color: white;
+
+}
+
+.campo_input {
+
+    border: none;
+    padding: 1.3em;
+    border-radius: 0 2em 2em 0;
+
+}
+
+.btn {
+
+    border-radius: 8px;
+    border: solid;
+    width: 8em;
+    height: 4em;
+
+}
